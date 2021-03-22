@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.OHRM.qa.TestCases.Home_Page_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyMyinfo"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.OHRM.qa.TestCases.Home_Page_Test -->
+      <class name="com.OHRM.qa.TestCases.AddEmp_Test">
+        <methods>
+          <include name="verifyAddEmp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.OHRM.qa.TestCases.AddEmp_Test -->
+      <class name="com.OHRM.qa.TestCases.Login_Page_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="login_Test"/>
+          <include name="loginpage_Logo_Test"/>
+          <include name="loginPage_Tittle_Test"/>
+        </methods>
+      </class> <!-- com.OHRM.qa.TestCases.Login_Page_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

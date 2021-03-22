@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.OHRM.qa.TestCases.Login_Page_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="login_Test"/>
+          <include name="loginpage_Logo_Test"/>
+          <include name="loginPage_Tittle_Test"/>
+        </methods>
+      </class> <!-- com.OHRM.qa.TestCases.Login_Page_Test -->
+      <class name="com.OHRM.qa.TestCases.Home_Page_Test">
+        <methods>
+          <include name="verifyLogout"/>
+          <include name="verifyMyinfo"/>
+          <include name="setUp"/>
+          <include name="veryfiyAdminPage"/>
+          <include name="homePageTittle"/>
+          <include name="verifyPIMpage"/>
+        </methods>
+      </class> <!-- com.OHRM.qa.TestCases.Home_Page_Test -->
+      <class name="com.OHRM.qa.TestCases.AddEmp_Test">
+        <methods>
+          <include name="verifyAddEmp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.OHRM.qa.TestCases.AddEmp_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
